@@ -1,7 +1,6 @@
 => Advent of Code 2025 – Day 1 (Part 1) in Hardcaml
 
-This repository contains a synthesizable Hardcaml implementation of
-Advent of Code 2025 Day 1, Part 1.
+This repository contains a synthesizable Hardcaml implementation of Advent of Code 2025 Day 1, Part 1.
 
 The design models the rotating dial as hardware:
 -> A 7-bit register stores the current dial position (0–99).
