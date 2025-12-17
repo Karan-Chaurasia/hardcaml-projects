@@ -1,0 +1,4 @@
+(library
+ (name aoc_day1)
+ (libraries hardcaml base)
+ (preprocess (pps ppx_jane ppx_hardcaml)))

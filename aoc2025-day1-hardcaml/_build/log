@@ -1,0 +1,16 @@
+# dune exec tb/test_day1.exe
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/exit/.cache/dune/db
+# Workspace root: /home/exit/hardcaml-projects/aoc2025-day1-hardcaml
+# Auto-detected concurrency: 4
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/exit/.opam/hardcaml-aoc/bin/ocamlc.opt -config > /tmp/dune_2aa059_output
