@@ -1,0 +1,3 @@
+(executable
+ (name test_day7)
+ (libraries hardcaml aoc_day7 base))

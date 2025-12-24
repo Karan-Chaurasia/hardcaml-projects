@@ -1,0 +1,9 @@
+# Dune / OCaml build artifacts
+_build/
+*.exe
+*.cm*
+.merlin
+
+# Editor / OS junk
+*~
+.DS_Store
