@@ -1,0 +1,17 @@
+# Dune / OCaml build artifacts
+_build/
+
+# OCaml compiler outputs
+*.cmx
+*.cmi
+*.cmo
+*.cmt
+*.cmti
+*.o
+*.a
+*.cmxa
+*.cmxs
+*.exe
+
+# Logs
+*.log

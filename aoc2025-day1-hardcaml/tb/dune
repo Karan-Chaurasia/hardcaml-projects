@@ -1,3 +1,5 @@
+; tb/dune
 (executable
  (name test_day1)
+ (modules test_day1)
  (libraries hardcaml hardcaml_waveterm aoc_day1 base))

@@ -1,16 +1,9 @@
 open Hardcaml
 
 type direction =
-  | Up
-  | Down
+  | Up   (* R *)
+  | Down (* L *)
 
 let dir_to_signal = function
-  | Up -> Signal.vdd
+  | Up   -> Signal.vdd
   | Down -> Signal.gnd
-
-type 'a t =
-  { dist        : 'a
-  ; full_turns  : 'a
-  ; remainder   : 'a
-  }
-[@@deriving hardcaml]
